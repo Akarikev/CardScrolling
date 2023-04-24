@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+}
+
+header,
+footer {
+  height: 200px;
+  background-color: rgb(145, 109, 109);
+  color: #eeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #eeee;
+  font-family: "Inter";
+}
+
+.container {
+  font-size: 1.3rem;
+}
+
+.page1 {
+  width: 100%;
+  height: 100vh;
+  background: rgb(60, 87, 87);
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page2 {
+  width: 100%;
+  height: 100vh;
+  background: rgb(2, 19, 19);
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  filter: opacity(0.95);
+  /* border-top-right-radius: 50px;
+  border-top-left-radius: 50px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page3 {
+  width: 100%;
+  height: 100vh;
+  background: rgb(20, 100, 100);
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  filter: opacity(0.95);
+  /* border-top-right-radius: 50px;
+  border-top-left-radius: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page4 {
+  width: 100%;
+  height: 100vh;
+  background: rgb(20, 43, 43);
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  filter: opacity(0.95);
+  /* border-top-right-radius: 50px;
+  border-top-left-radius: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
